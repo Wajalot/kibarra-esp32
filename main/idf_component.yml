@@ -1,0 +1,5 @@
+dependencies:
+  espressif/usb_host_cdc_acm: "^2.0.0"
+  espressif/usb_host_vcp: "*"
+  espressif/usb_host_ch34x_vcp: "^2.0.0"
+  espressif/led_strip: "^2.5.5"

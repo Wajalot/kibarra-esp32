@@ -1,0 +1,10 @@
+CONFIG_COMPILER_CXX_EXCEPTIONS=y
+
+# Placa real: N16R8 (16MB flash). El proyecto arrancó con una plantilla de
+# 2MB que nos dejaba casi sin sitio para el firmware; tabla propia con más
+# margen para JSON de perfiles y lo que venga después.
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+CONFIG_PARTITION_TABLE_FILENAME="partitions.csv"
