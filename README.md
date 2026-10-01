@@ -1,6 +1,6 @@
 # KiBarra-ESP32
 
-Bridge Kiprim/OWON ↔ MQTT corriendo **directamente en un ESP32-S3**, sin PC de por medio. Hermano del bridge Python de [KiBarra](https://github.com/Wajalot/lab_Kiprim): habla el mismo protocolo serie con el instrumento y el mismo esquema de topics MQTT, así que la GUI de escritorio y la app Android funcionan contra cualquiera de los dos sin cambiar nada.
+Bridge Kiprim/OWON ↔ MQTT corriendo **directamente en un ESP32-S3**, sin PC de por medio. Hermano del bridge Python de [KiBarra](https://github.com/Wajalot/lab_Kiprim): habla el mismo protocolo serie con el instrumento y el mismo esquema de topics MQTT, así que la [GUI de escritorio](https://github.com/Wajalot/lab_Kiprim) y la [app Android](https://github.com/Wajalot/kibarra-android) funcionan contra cualquiera de los dos sin cambiar nada.
 
 ## Por qué existe
 
